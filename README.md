@@ -199,8 +199,8 @@ Put the downloaded packages into the `deb_packages` directory.
     cd deb_packages
     curl -O http://security.debian.org/debian-security/pool/updates/main/o/openjdk-6/openjdk-6-jre-headless_6b27-1.12.6-1~deb7u1_amd64.deb
     curl -O http://security.debian.org/debian-security/pool/updates/main/o/openjdk-6/openjdk-6-jre-lib_6b27-1.12.6-1~deb7u1_all.deb
-    curl -O http://http.us.debian.org/debian/pool/main/n/nss/libnss3-1d_3.14.3-1_amd64.deb
-    curl -O http://http.us.debian.org/debian/pool/main/n/nss/libnss3_3.14.3-1_amd64.deb
+    curl -O http://http.us.debian.org/debian/pool/main/n/nss/libnss3-1d_3.14.5-1_amd64.deb
+    curl -O http://http.us.debian.org/debian/pool/main/n/nss/libnss3_3.14.5-1_amd64.deb
     curl -O http://http.us.debian.org/debian/pool/main/c/ca-certificates-java/ca-certificates-java_20121112+nmu2_all.deb
     curl -O http://http.us.debian.org/debian/pool/main/n/nspr/libnspr4_4.9.2-1_amd64.deb
     cd ..
@@ -254,18 +254,18 @@ the application.
 [Google Client API](http://code.google.com/p/google-api-python-client/)
 is library to access various Google's services via API.
 
-Download google-api-python-client-1.1.tar.gz from
+Download google-api-python-client-1.2.tar.gz from
 [download page](http://code.google.com/p/google-api-python-client/downloads/list)
 or by the following command.
 
-    curl -O http://google-api-python-client.googlecode.com/files/google-api-python-client-1.1.tar.gz
+    curl -O http://google-api-python-client.googlecode.com/files/google-api-python-client-1.2.tar.gz
 
 Set up the library in the root directory of the application.
 
-    tar zxf google-api-python-client-1.1.tar.gz
-    ln -s google-api-python-client-1.1/apiclient .
-    ln -s google-api-python-client-1.1/oauth2client .
-    ln -s google-api-python-client-1.1/uritemplate .
+    tar zxf google-api-python-client-1.2.tar.gz
+    ln -s google-api-python-client-1.2/apiclient .
+    ln -s google-api-python-client-1.2/oauth2client .
+    ln -s google-api-python-client-1.2/uritemplate .
 
 ##### Httplib2
 
